@@ -4,4 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "google-generativeai>=0.8.5",
+    "langchain>=0.3.27",
+    "langchain-google-genai>=2.0.10",
+    "langchain-mcp-adapters>=0.1.14",
+    "langgraph>=1.0.1",
+    "mcp>=1.23.1",
+    "python-dotenv>=1.2.1",
+]
